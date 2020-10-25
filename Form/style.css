@@ -1,0 +1,49 @@
+body {
+    font-family: Georgia, serif;
+    background-color: oldlace;
+}
+
+header {
+    text-align: center;
+    background-color: moccasin;  
+    
+}
+
+.pack {
+    padding: 0.01em 16px;
+}
+
+.data-pribadi {
+    text-transform: capitalize;
+}
+
+h2 {
+   font-weight: bold; 
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-isian ol li {
+    list-style: none;
+    
+}
+
+th, td {
+    padding: 12px;
+    width: 200px;
+}
+
+.tombol {
+    background: moccasin;
+    color: black;
+    padding:10px 20px;
+    text-decoration:none;
+    font-size:11pt;
+}
+
+.notice {
+    color: grey;
+    text-transform: lowercase;
+}

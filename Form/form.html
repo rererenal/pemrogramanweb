@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+    <link rel="stylesheet"  href="style.css"/>
+</head>
+<body>
+    <header class="pack">
+        <h1>
+            Form Registrasi Siswa
+        </h1>
+    </header>
+
+    <div class="data-pribadi">
+        <h2>
+            1. Data Pribadi
+        </h2>
+        <div class="form-isian">
+            <table>
+                <tr>
+                    <td>
+                        <label>Nama Lengkap      :</label>
+                        
+                    </td>   
+                
+                    <td>    
+                        <input id="nama" type="text" 
+                                required placeholder="Nama Sesuai KTP">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Tempat Tanggal Lahir : </label>
+                    </td>
+                    <td>                         
+                        <input id="ttl" type="text"
+                                required placeholder="Tempat, dd mm yyyy">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender :</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="jk" value="Laki-laki"/>Laki-laki
+                        <input type="radio" name="jk" value="Perempuan"/>Perempuan
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label>Agama :</label>
+                    </td>
+                    <td>
+                        <select name="agama" >
+                            <option value=" ">----------</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Protestan">Protestan</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Konghuchu">Konghuchu</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <h2>
+                2. Data Informasi
+            </h2>
+
+            <table>
+                <tr>
+                    <td>
+                        <label>Alamat :</label>
+                    </td>
+                    <td>
+                        <textarea name="alamat" cols="50" rows="2" placeholder="Domisili KTP"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Kelurahan :</label>
+                    </td>
+                    <td>
+                        <input id="kelurahan" type="text"
+                            required >
+                            
+                    </td>
+                    <td>
+                        <label> Kota :</label>
+                    </td>
+                    <td>
+                        <input id="kota" type="text"
+                            required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Provinsi :</label>
+                    </td>
+                    <td>
+                        <input id="provinsi" type="text"
+                            required>
+                    </td>
+                    <td>
+                        <label>Kode Pos : </label>
+                    </td>
+                    <td>
+                        <input id="kode-pos" type="number">
+                            
+                    </td>
+                </tr>
+            </table>
+
+            <h2>
+                3. Data Akun Siswa
+            </h2>
+
+            <table>
+                <tr>
+                    <td>
+                        <label>E-mail :</label>
+                    </td>
+                    <td>
+                        <input id="email" type="email"
+                            required placeholder="example@mail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password :</label>
+                    </td>
+                    <td>
+                        <input id="password" type="password"
+                            required placeholder="Min.8 Karakter">
+                    </td>
+                    <td>
+                        <label>Re-Enter Password: </label>
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Konfirmasi">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>No.Telepon</label>
+                    </td>
+                    <td>
+                        <input id="no-telepon" type="number"
+                            required placeholder="+62-0000-0000">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="tombol">
+            <button type="submit">SUBMIT</button>
+            <p class="notice">*setelah melakukan submit anda akan dapat informasi dari email</p>
+        </div>
+    </div>
+        
+
+    
+    
+</body>
+</html>
