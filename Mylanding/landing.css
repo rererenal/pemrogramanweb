@@ -1,0 +1,58 @@
+header {
+    padding: 0.01em 16px;
+    text-align: center;
+    background-color: ghostwhite;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #55bdee; 
+    padding: 10px;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.page {
+    background-color: ghostwhite;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+
+button {
+    background-color: #55bdee; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 0 550px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer-info-table, th{
+    color: grey;  
+}
+
