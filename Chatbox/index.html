@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function teks() {
+            let pesan = document.getElementById("input_teks").value;
+            document.getElementById("chat_box").innerHTML += pesan + "<br/>";
+            document.getElementById("input_teks").value = "";
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <div id="chat_box" class="chat-box">
+        <div class="chat-text">
+            <form method="REQUEST" onsubmit="return teks();">
+                <input id="input_teks" type="text" name="inp">
+                <button type="submit" onclick="return teks();">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
